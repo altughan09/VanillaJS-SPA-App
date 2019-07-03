@@ -4,9 +4,9 @@ import {about} from './about';
 import {contact} from './contact';
 
 const routes = {
-  "home": home,
-  "about": about,
-  "contact": contact
+  "https://altugozengi.github.io/VanillaJS-SPA-App/": home,
+  "https://altugozengi.github.io/VanillaJS-SPA-App/about": about,
+  "https://altugozengi.github.io/VanillaJS-SPA-App/contact": contact
 };
 
 const rootDiv = document.getElementById("root");
