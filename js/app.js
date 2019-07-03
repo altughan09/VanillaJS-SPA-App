@@ -4,9 +4,9 @@ import {about} from './about';
 import {contact} from './contact';
 
 const routes = {
-  "/": home,
-  "/about": about,
-  "/contact": contact
+  "home": home,
+  "about": about,
+  "contact": contact
 };
 
 const rootDiv = document.getElementById("root");

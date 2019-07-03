@@ -8,9 +8,9 @@ export const home =
 <div class="nav-wrapper teal darken-4">
     <a href="#" onclick="onNavigate('/'); return false;" class="brand-logo">VanillaJS SPA</a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#" onclick="onNavigate('/'); return false;">Home</a></li>
-        <li><a href="#" onclick="onNavigate('/about'); return false;">About</a></li>
-        <li><a href="#" onclick="onNavigate('/contact'); return false;">Contact</a></li>
+        <li><a href="#" onclick="onNavigate('home'); return false;">Home</a></li>
+        <li><a href="#" onclick="onNavigate('about'); return false;">About</a></li>
+        <li><a href="#" onclick="onNavigate('contact'); return false;">Contact</a></li>
     </ul>
 </div>
 </nav><div class="section no-pad-bot orange lighten-5" id="index-banner">
