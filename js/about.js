@@ -70,4 +70,4 @@ export const about = `<nav>
 </div>
 </div>
 
-<footer class="page-footer orange darken-3 center"></footer>`;
+<footer class="page-footer teal darken-4 center"></footer>`;
