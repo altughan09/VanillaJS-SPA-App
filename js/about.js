@@ -1,8 +1,8 @@
 "use strict";
 
-const about = `<nav>
+export const about = `<nav>
 <div class="nav-wrapper teal darken-4">
-    <a href="#" class="brand-logo">VanillaJS SPA</a>
+    <a href="#" onclick="onNavigate('/'); return false;" class="brand-logo">VanillaJS SPA</a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#" onclick="onNavigate('/'); return false;">Home</a></li>
         <li><a href="#" onclick="onNavigate('/about'); return false;">About</a></li>
@@ -70,4 +70,4 @@ const about = `<nav>
 </div>
 </div>
 
-<footer class="page-footer orange darken-3">`;
+<footer class="page-footer orange darken-3 center"></footer>`;
