@@ -4,9 +4,9 @@ import {about} from './about';
 import {contact} from './contact';
 
 const routes = {
-  "/VanillaJS-SPA-App/": home,
-  "/VanillaJS-SPA-App/about": about,
-  "/VanillaJS-SPA-App/contact": contact
+  "/": home,
+  "/about": about,
+  "/contact": contact
 };
 
 const rootDiv = document.getElementById("root");
