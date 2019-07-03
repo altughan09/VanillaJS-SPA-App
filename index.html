@@ -17,7 +17,12 @@
 <body>
     <div id="root"></div>
 </body>
-
+<script>
+const onNavigate = pathname => {
+  window.history.pushState({}, pathname, window.location.origin + pathname);
+  document.getElementById("root").innerHTML = routes[pathname];
+};
+</script>
 <script src="./public/bundle.js"></script>
 
 </html>
